@@ -120,7 +120,7 @@ client.on("message", msg => {
                 "description": "The server is currently online with " + data.players.online + " players.",
                 "color": 640512,
                 "footer": {
-                    "text": ip + " • Last updated"
+                    "text": ip + " â€¢ Last updated"
                 },
                 "timestamp": cachedTimestamp
             }
